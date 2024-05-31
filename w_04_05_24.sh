@@ -1,7 +1,7 @@
 #!/bin/bash
  
 #SBATCH --partition=normal
-#SBATCH --job-name=30_05_24
+#SBATCH --job-name=33_05_24
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=24
 #SBATCH --gres=gpu:1
@@ -14,4 +14,4 @@
 module load Analytics/Anaconda/python3
 source activate fenicsx-env
 
-python 30_05_24.py
+python 33_05_24.py
